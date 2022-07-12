@@ -1,0 +1,114 @@
+
+        html,body{
+            margin:0px;
+            padding-left: 10px;
+            
+            box-sizing:content-box;
+            border-radius: 10px;
+            border-right: 10px;
+            border-right: 20px;
+            border-color: red;
+            
+        }
+        #header-img{
+            position:relative;
+            width: 100vw;
+            height:600px;
+            background-image: url("./images/wall1.jpg" );
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size:cover;
+            
+        }
+      
+        .nav-menu{
+            width:60vw;
+            height:60px;
+            text-align: right;
+        }
+        .zomato{
+            display:block;
+            font-weight: bolder;
+            color:white;
+            text-align: center;
+            font-size: 50px;
+            margin:0;
+
+        }
+        .zomato1{
+            text-align: justify;
+            font-weight: bolder;
+            color:white;
+            
+            font-size: 20px;
+           
+
+            
+
+
+        }
+        .header-flex{
+            margin-top: 100px;
+
+        }
+        .nav-link{
+            border-bottom: 0px solid black;
+            transition:border-bottom 0.3s;
+            cursor:pointer;
+            display: inline;
+            text-align: right;
+            
+
+        }
+        .nav-link:hover{
+            border-bottom: 5px solid white;
+            text-align: right;
+
+        }
+        .search-box{
+            width:30vw;
+            height:40px;
+            background-color: white;
+            border:none;
+           
+            padding-left: 20px;
+            outline: none;
+            font-weight: normal;
+            font-size: 18px;
+            margin-top: 10px;
+        }
+        .search-btn{
+            width:30vw;
+            background-color: white;
+            height:40px;
+            margin-right: 10px;
+            font-weight:normal;
+            font-size:20px;
+            margin-top: 10px;
+        }
+        .quick{
+            margin-top: 15px;
+            margin-left: 100px;
+            font-family:Arial, sans-serif;
+            font-weight: bold;
+        }
+      .container{
+          margin-top: 50px;
+          margin-left:100px;
+       
+
+      }
+      .img{
+                margin-top:30px;
+                
+                
+            }
+      .row{
+        row-gap: 5px ;
+        column-gap: 2px;
+        text-align: right;
+      }
+      
+        
+   
+        
